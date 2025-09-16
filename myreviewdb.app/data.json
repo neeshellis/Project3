@@ -1,0 +1,38 @@
+{
+  "Users": [
+    { "id": 1, "firstName": "Alice", "lastName": "Smith", "email": "alice.smith@example.com", "mobile": "+6421000001", "address": "12 Queen St, Auckland" },
+    { "id": 2, "firstName": "Ben", "lastName": "Taylor", "email": "ben.taylor@example.com", "mobile": "+6421000002", "address": "45 King St, Wellington" },
+    { "id": 3, "firstName": "Carla", "lastName": "Johnson", "email": "carla.johnson@example.com", "mobile": "+6421000003", "address": "78 Duke Rd, Christchurch" },
+    { "id": 4, "firstName": "David", "lastName": "Brown", "email": "david.brown@example.com", "mobile": "+6421000004", "address": "23 Lake Rd, Wanaka" },
+    { "id": 5, "firstName": "Ella", "lastName": "Wilson", "email": "ella.wilson@example.com", "mobile": "+6421000005", "address": "56 Hill St, Dunedin" },
+    { "id": 6, "firstName": "Finn", "lastName": "White", "email": "finn.white@example.com", "mobile": "+6421000006", "address": "89 River Rd, Hamilton" },
+    { "id": 7, "firstName": "Grace", "lastName": "Evans", "email": "grace.evans@example.com", "mobile": "+6421000007", "address": "34 Garden St, Tauranga" },
+    { "id": 8, "firstName": "Henry", "lastName": "Lee", "email": "henry.lee@example.com", "mobile": "+6421000008", "address": "67 Beach Rd, Napier" },
+    { "id": 9, "firstName": "Isla", "lastName": "Clark", "email": "isla.clark@example.com", "mobile": "+6421000009", "address": "12 Forest Rd, Rotorua" },
+    { "id": 10, "firstName": "Jack", "lastName": "Davis", "email": "jack.davis@example.com", "mobile": "+6421000010", "address": "99 Harbour St, Nelson" }
+  ],
+  "Bookings": [
+    { "id": 1, "userID": 1, "accommodation": "Valley Inn", "datein": "2025-07-10T15:00:00", "dateout": "2025-07-15T10:00:00", "nights": 5 },
+    { "id": 2, "userID": 2, "accommodation": "Bunkhouse", "datein": "2025-08-01T15:00:00", "dateout": "2025-08-04T10:00:00", "nights": 3 },
+    { "id": 3, "userID": 3, "accommodation": "Mancave", "datein": "2025-06-12T15:00:00", "dateout": "2025-06-14T10:00:00", "nights": 2 },
+    { "id": 4, "userID": 4, "accommodation": "Valley Inn", "datein": "2025-09-05T15:00:00", "dateout": "2025-09-12T10:00:00", "nights": 7 },
+    { "id": 5, "userID": 5, "accommodation": "Bunkhouse", "datein": "2025-04-20T15:00:00", "dateout": "2025-04-23T10:00:00", "nights": 3 },
+    { "id": 6, "userID": 6, "accommodation": "Mancave", "datein": "2025-05-15T15:00:00", "dateout": "2025-05-20T10:00:00", "nights": 5 },
+    { "id": 7, "userID": 7, "accommodation": "Valley Inn", "datein": "2025-10-02T15:00:00", "dateout": "2025-10-05T10:00:00", "nights": 3 },
+    { "id": 8, "userID": 8, "accommodation": "Bunkhouse", "datein": "2025-11-14T15:00:00", "dateout": "2025-11-17T10:00:00", "nights": 3 },
+    { "id": 9, "userID": 9, "accommodation": "Mancave", "datein": "2025-03-08T15:00:00", "dateout": "2025-03-11T10:00:00", "nights": 3 },
+    { "id": 10, "userID": 10, "accommodation": "Valley Inn", "datein": "2025-12-01T15:00:00", "dateout": "2025-12-05T10:00:00", "nights": 4 }
+  ],
+  "Reviews": [
+    { "id": 1, "userID": 1, "bookingid": 1, "accommodation": "Valley Inn", "datein": "2025-07-10T15:00:00", "review": "Amazing stay, beautiful mountain views!", "rating": 5 },
+    { "id": 2, "userID": 2, "bookingid": 2, "accommodation": "Bunkhouse", "datein": "2025-08-01T15:00:00", "review": "Great service but room was small.", "rating": 4 },
+    { "id": 3, "userID": 3, "bookingid": 3, "accommodation": "Mancave", "datein": "2025-06-12T15:00:00", "review": "Perfect location, very convenient.", "rating": 5 },
+    { "id": 4, "userID": 4, "bookingid": 4, "accommodation": "Valley Inn", "datein": "2025-09-05T15:00:00", "review": "Cosy chalet, ideal for skiing trip.", "rating": 5 },
+    { "id": 5, "userID": 5, "bookingid": 5, "accommodation": "Bunkhouse", "datein": "2025-04-20T15:00:00", "review": "Lovely hosts, delicious breakfast.", "rating": 4 },
+    { "id": 6, "userID": 6, "bookingid": 6, "accommodation": "Mancave", "datein": "2025-05-15T15:00:00", "review": "Quiet and peaceful, highly recommend.", "rating": 5 },
+    { "id": 7, "userID": 7, "bookingid": 7, "accommodation": "Valley Inn", "datein": "2025-10-02T15:00:00", "review": "Clean rooms, good value for money.", "rating": 4 },
+    { "id": 8, "userID": 8, "bookingid": 8, "accommodation": "Bunkhouse", "datein": "2025-11-14T15:00:00", "review": "Lovely sunsets, pool could be cleaner.", "rating": 3 },
+    { "id": 9, "userID": 9, "bookingid": 9, "accommodation": "Mancave", "datein": "2025-03-08T15:00:00", "review": "Rustic charm, warm fireplace.", "rating": 5 },
+    { "id": 10, "userID": 10, "bookingid": 10, "accommodation": "Valley Inn", "datein": "2025-12-01T15:00:00", "review": "Fantastic location by the beach.", "rating": 5 }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "myreviewdb.app",
+  "version": "1.0.0",
+  "description": "Project 3 backend application",
+  "license": "ISC",
+  "author": "Neesh Ellis",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^1.12.2",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.5",
+    "sequelize": "^6.37.7"
+  }
+}
