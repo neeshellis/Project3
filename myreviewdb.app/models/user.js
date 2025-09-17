@@ -26,7 +26,7 @@ type: DataTypes.STRING, allowNull: false
 }
 }, {
 sequelize: sequelizeInstance, 
-modelName: 'users',
+modelName: 'users', //name the model (table)lowercase and plural is using Mongo
 timestamps: true, 
 freezeTableName: true
 }

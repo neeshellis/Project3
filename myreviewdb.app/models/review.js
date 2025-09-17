@@ -45,7 +45,7 @@ type: DataTypes.INTEGER, allowNull: false
 
 }, {
 sequelize: sequelizeInstance, 
-modelName: 'reviews', 
+modelName: 'reviews', //name the model (table)lowercase and plural is using Mongo
 timestamps: true, 
 freezeTableName: true
 }
